@@ -1,0 +1,28 @@
+/* Write your CSS here */
+.bg-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.list-container {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  width: 70%;
+  justify-content: center;
+}
+.img-container {
+  display: flex;
+}
+.img-search {
+  width: 40px;
+}
+.input-search {
+  border-radius: 7px;
+  background-color: #f1f5f9;
+  padding: 10px;
+  border-style: none;
+  width: 289px;
+  outline: none;
+}
